@@ -60,8 +60,8 @@ export default class TestFunctionsWebPart extends BaseClientSideWebPart<ITestFun
 
   private async functionOne(flag:boolean) : Promise<void> {
     alert("function one");
-    const libraryName : string[] = ["Policies", "Procedures","Guides", "Forms", "General"];
-    const dcDivisions : string[] = ["asm","cen","cnn","emp","hea"];
+    const libraryName : string[] = ["One", "Two","Three", "Four", "Five"];
+    const dcDivisions : string[] = ["aaa","bbb","ccc","ddd","eee"];
     
     for (let x = 0; x < libraryName.length; x++) {
       dcDivisions.forEach(async (site,index)=>{
