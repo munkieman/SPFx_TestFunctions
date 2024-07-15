@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "test-functions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/testFunctions/TestFunctionsWebPart.js",
+          "manifest": "./src/webparts/testFunctions/TestFunctionsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TestFunctionsWebPartStrings": "lib/webparts/testFunctions/loc/{locale}.js"
+  }
+}
